@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-Cleanup,
-version 0.001:
+version 0.002:
 
   Run cleanup code after request completion
 

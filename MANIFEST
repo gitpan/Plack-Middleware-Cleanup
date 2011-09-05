@@ -1,6 +1,7 @@
 Changes
 LICENSE
 MANIFEST
+META.json
 META.yml
 Makefile.PL
 README
@@ -8,3 +9,4 @@ dist.ini
 lib/Plack/Middleware/Cleanup.pm
 t/basic.t
 t/release-cpan-changes.t
+t/release-has-version.t

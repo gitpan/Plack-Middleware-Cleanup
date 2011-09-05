@@ -16,9 +16,12 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Plack-Middleware-Cleanup
+no_index:
+  package:
+    - Plack::Middleware::Cleanup::Guard
 requires:
   Plack::Middleware: 0
   parent: 0
   strict: 0
   warnings: 0
-version: 0.001
+version: 0.002

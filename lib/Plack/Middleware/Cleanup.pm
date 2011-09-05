@@ -1,6 +1,9 @@
 use strict;
 use warnings;
 package Plack::Middleware::Cleanup;
+{
+  $Plack::Middleware::Cleanup::VERSION = '0.002';
+}
 # ABSTRACT: Run cleanup code after request completion
 
 use parent 'Plack::Middleware';
@@ -21,6 +24,9 @@ sub call {
 }
 
 package Plack::Middleware::Cleanup::Guard;
+{
+  $Plack::Middleware::Cleanup::Guard::VERSION = '0.002';
+}
 
 sub DESTROY { $_[0]->() }
 
@@ -35,7 +41,7 @@ Plack::Middleware::Cleanup - Run cleanup code after request completion
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
