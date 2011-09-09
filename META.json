@@ -42,6 +42,16 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.002"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hdp/Plack-Middleware-Cleanup/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/hdp/Plack-Middleware-Cleanup.git",
+         "web" : "https://github.com/hdp/Plack-Middleware-Cleanup"
+      }
+   },
+   "version" : "0.003"
 }
 
